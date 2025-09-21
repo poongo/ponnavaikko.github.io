@@ -1,0 +1,27 @@
+media:
+  - type: image
+    title: Sample Photo
+    description: Replace with a real image and description.
+    date: 2025-01-01
+    src: /assets/images/sample.jpg
+    tags: [sample, photo]
+  - type: video
+    title: Sample Video
+    description: MP4 hosted in assets, or an external link.
+    date: 2025-01-02
+    src: /assets/media/sample.mp4
+    tags: [sample, video]
+
+documents:
+  - type: pdf
+    title: Résumé (PDF)
+    description: Printable résumé version.
+    date: 2025-01-01
+    src: /content/vcbio.pdf
+    tags: [resume]
+  - type: link
+    title: Publications (Full List)
+    description: Comprehensive list hosted within this site.
+    date: 2025-01-01
+    src: /content/vcpub.htm
+    tags: [publications]

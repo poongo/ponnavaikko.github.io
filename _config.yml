@@ -1,0 +1,56 @@
+locale: en
+lang: en
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "air"
+
+title: "Dr. Ponnavaikko"
+name: "Dr. Ponnavaikko"
+description: "Telecom, data communications, networking OS & platform infrastructure professional."
+url: "https://ponnavaikko.com"
+baseurl: ""
+
+encoding: "utf-8"
+
+author:
+  name: "Dr. Ponnavaikko"
+  avatar: "/assets/images/avatar.png"
+  bio: "Telecom, data communications, networking OS & platform infrastructure professional."
+  location: "United States"
+  links:
+    - label: "Résumé (HTML)"
+      url: "/content/vcres.htm"
+    - label: "Résumé (PDF)"
+      url: "/content/vcbio.pdf"
+    - label: "Publications"
+      url: "/content/vcpub.htm"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - faraday-retry
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+include:
+  - _pages
+  - content
+  - assets
+
+markdown: kramdown
+permalink: pretty
+paginate: 0
+
+pagination:
+  enabled: false
+
+footer:
+  links:
+    - label: "Résumé"
+      url: "/content/vcres.htm"
+    - label: "Awards"
+      url: "/content/vcawa.htm"

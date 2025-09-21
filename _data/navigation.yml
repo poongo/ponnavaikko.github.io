@@ -1,0 +1,17 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Publications"
+    url: /publications/
+  - title: "Experience"
+    url: /experience/
+  - title: "Awards"
+    url: /awards/
+  - title: "Creative"
+    url: /creative/
+  - title: "Languages"
+    url: /languages/
+  - title: "Gallery"
+    url: /gallery/
+  - title: "Contact"
+    url: /contact/
