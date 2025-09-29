@@ -1,0 +1,166 @@
+<script>
+(function () {
+  const storageKey = 'preferredLanguage';
+  const supported = new Set(['en', 'ta']);
+  const defaultLang = 'en';
+  const root = document.documentElement;
+
+  function detectAvailableLanguages() {
+    const found = new Set();
+    document.querySelectorAll('.lang-content').forEach((node) => {
+      node.classList.forEach((cls) => {
+        if (cls.startsWith('lang-')) {
+          found.add(cls.slice(5));
+        }
+      });
+    });
+    return found;
+  }
+
+  const safeStorage = (() => {
+    try {
+      const testKey = '__lang_test__';
+      window.localStorage.setItem(testKey, 'ok');
+      window.localStorage.removeItem(testKey);
+      return window.localStorage;
+    } catch (err) {
+      return null;
+    }
+  })();
+
+  const stored = (() => {
+    if (!safeStorage) return null;
+    const value = safeStorage.getItem(storageKey);
+    return supported.has(value) ? value : null;
+  })();
+
+  const availableLanguages = detectAvailableLanguages();
+
+  const initialLang = (() => {
+    if (supported.has(root.dataset.lang) && availableLanguages.has(root.dataset.lang)) {
+      return root.dataset.lang;
+    }
+    if (stored && availableLanguages.has(stored)) {
+      return stored;
+    }
+    if (availableLanguages.has(defaultLang)) {
+      return defaultLang;
+    }
+    const first = availableLanguages.values().next();
+    return (first && !first.done) ? first.value : defaultLang;
+  })();
+
+  root.setAttribute('data-lang', initialLang);
+  root.setAttribute('lang', initialLang === 'ta' ? 'ta' : 'en');
+
+  function persist(lang) {
+    if (!safeStorage) return;
+    try {
+      safeStorage.setItem(storageKey, lang);
+    } catch (err) {
+      // ignore write failures
+    }
+  }
+
+  function updateButtons(current) {
+    document.querySelectorAll('.language-toggle__button').forEach((button) => {
+      const isActive = button.dataset.lang === current;
+      button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    });
+  }
+
+  function applyLanguage(lang) {
+    const next = supported.has(lang) ? lang : defaultLang;
+    root.setAttribute('data-lang', next);
+    root.setAttribute('lang', next === 'ta' ? 'ta' : 'en');
+    updateButtons(next);
+    persist(next);
+  }
+
+  function createToggleElement(extraClasses = [], options = {}) {
+    const classes = ['language-toggle', ...extraClasses].join(' ');
+    const wrapper = document.createElement('div');
+    wrapper.className = classes.trim();
+    wrapper.setAttribute('role', 'group');
+    wrapper.setAttribute('aria-label', options.ariaLabel || 'Language toggle');
+
+    if (options.labelText) {
+      const label = document.createElement('span');
+      label.className = 'language-toggle__label';
+      label.textContent = options.labelText;
+      wrapper.appendChild(label);
+    }
+
+    [
+      { lang: 'en', text: 'English' },
+      { lang: 'ta', text: 'தமிழ்' }
+    ].forEach(({ lang, text }) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'language-toggle__button';
+      button.dataset.lang = lang;
+      button.setAttribute('aria-pressed', 'false');
+      button.textContent = text;
+      button.addEventListener('click', () => applyLanguage(lang));
+      button.addEventListener('keydown', (event) => {
+        if (event.key === ' ' || event.key === 'Enter') {
+          event.preventDefault();
+          button.click();
+        }
+      });
+      wrapper.appendChild(button);
+    });
+
+    return wrapper;
+  }
+
+  function removeExistingToggles() {
+    document.querySelectorAll('.masthead__menu-item--lang-toggle').forEach((item) => item.remove());
+    document.querySelectorAll('.language-toggle--inline').forEach((node) => node.remove());
+  }
+
+  function injectNavToggle() {
+    const nav = document.querySelector('.masthead .greedy-nav');
+    if (!nav) return;
+
+    const menuList = nav.querySelector('.visible-links');
+    if (!menuList) return;
+
+    if (menuList.querySelector('.masthead__menu-item--lang-toggle')) return;
+
+    const menuItem = document.createElement('li');
+    menuItem.className = 'masthead__menu-item masthead__menu-item--lang-toggle';
+    menuItem.appendChild(createToggleElement());
+    menuList.appendChild(menuItem);
+  }
+
+  function injectInlineToggle() {
+    const firstLangBlock = document.querySelector('.lang-content');
+    if (!firstLangBlock) return;
+
+    const container = firstLangBlock.parentElement || document.querySelector('.page__content');
+    if (!container || container.querySelector('.language-toggle--inline')) return;
+
+    const inlineToggle = createToggleElement(['language-toggle--inline'], {
+      ariaLabel: 'Toggle language between English and Tamil',
+      labelText: 'View this page in'
+    });
+
+    container.appendChild(inlineToggle);
+  }
+
+  function initializeLanguageToggle() {
+    const hasFullToggle = availableLanguages.has('en') && availableLanguages.has('ta');
+    if (!hasFullToggle) {
+      removeExistingToggles();
+      return;
+    }
+
+    injectNavToggle();
+    injectInlineToggle();
+    updateButtons(root.dataset.lang);
+  }
+
+  document.addEventListener('DOMContentLoaded', initializeLanguageToggle);
+})();
+</script>

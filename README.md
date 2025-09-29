@@ -2,7 +2,7 @@
 
 ## What’s fixed
 - Converted legacy Windows-1252 HTML files to **UTF‑8** (Liquid error resolved)
-- Switched includes to `{% include content/... %}` and placed copies in `/_includes/content/`
+- Consolidated content into Markdown pages and removed redundant legacy HTML includes
 - Disabled pagination warning in `_config.yml`
 - Added `faraday-retry` gem to silence Faraday middleware notice
 

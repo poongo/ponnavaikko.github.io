@@ -4,26 +4,26 @@ lang: en
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "air"
 
-title: "Dr. Ponnavaikko"
-name: "Dr. Ponnavaikko"
-description: "Telecom, data communications, networking OS & platform infrastructure professional."
+title: "Dr. Ponnavaikko Murugesan"
+name: "Dr. Ponnavaikko Murugesan"
+description: "Former vice-chancellor of Bharathidasan, SRM, and Bharath universities; founding director of Tamil Virtual University; IEEE India Council chair."
 url: "https://ponnavaikko.com"
 baseurl: ""
 
 encoding: "utf-8"
 
 author:
-  name: "Dr. Ponnavaikko"
-  avatar: "/assets/images/avatar.png"
-  bio: "Telecom, data communications, networking OS & platform infrastructure professional."
+  name: "Dr. Ponnavaikko Murugesan"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Academic leader and innovator in power systems, Tamil computing, and higher education reform."
   location: "United States"
   links:
-    - label: "Résumé (HTML)"
-      url: "/content/vcres.htm"
+    - label: "Autobiography"
+      url: "/content/Autobiography.pdf"
     - label: "Résumé (PDF)"
       url: "/content/vcbio.pdf"
     - label: "Publications"
-      url: "/content/vcpub.htm"
+      url: "/publications/"
 
 plugins:
   - jekyll-include-cache
@@ -51,6 +51,6 @@ pagination:
 footer:
   links:
     - label: "Résumé"
-      url: "/content/vcres.htm"
+      url: "/content/vcbio.pdf"
     - label: "Awards"
-      url: "/content/vcawa.htm"
+      url: "/achievements/#awards-and-honors"

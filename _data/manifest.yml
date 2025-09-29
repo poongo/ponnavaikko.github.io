@@ -1,27 +1,191 @@
-media:
-  - type: image
-    title: Sample Photo
-    description: Replace with a real image and description.
-    date: 2025-01-01
-    src: /assets/images/sample.jpg
-    tags: [sample, photo]
-  - type: video
-    title: Sample Video
-    description: MP4 hosted in assets, or an external link.
-    date: 2025-01-02
-    src: /assets/media/sample.mp4
-    tags: [sample, video]
-
-documents:
-  - type: pdf
-    title: Résumé (PDF)
-    description: Printable résumé version.
-    date: 2025-01-01
-    src: /content/vcbio.pdf
-    tags: [resume]
-  - type: link
-    title: Publications (Full List)
-    description: Comprehensive list hosted within this site.
-    date: 2025-01-01
-    src: /content/vcpub.htm
-    tags: [publications]
+photos:
+- src: https://lh3.googleusercontent.com/pw/AP1GczM-umN9D1XKvBdEcP3qMOVSsST94s-vIKDcK64FCjoOviiB4a6niwD9A43GALL4dagTYU14NnEYVNafaO5dGL3CzuRlkRo0zV2hQcBsz1_NQnyT6DYt=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczM-umN9D1XKvBdEcP3qMOVSsST94s-vIKDcK64FCjoOviiB4a6niwD9A43GALL4dagTYU14NnEYVNafaO5dGL3CzuRlkRo0zV2hQcBsz1_NQnyT6DYt=w400-h300-no
+  alt: Album photo 1
+- src: https://lh3.googleusercontent.com/pw/AP1GczM3W9yR57gb-7URcPmI5_U5pl5u-YBKGI-odq9aPWvrIo43mvOf1diPwaAsB2qQQTeiauPsBGlvFb9SwxBblSJa_I1i_RcDoQL7x0y9BVwsq7VYEJkz=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczM3W9yR57gb-7URcPmI5_U5pl5u-YBKGI-odq9aPWvrIo43mvOf1diPwaAsB2qQQTeiauPsBGlvFb9SwxBblSJa_I1i_RcDoQL7x0y9BVwsq7VYEJkz=w400-h300-no
+  alt: Album photo 2
+- src: https://lh3.googleusercontent.com/pw/AP1GczM40TvqKGMV2fl-plDMqie1HIAjPoCbos8-okSKVwJ2k0U_Mb3sbJ1gJHKSRRjDOpoPITgglSYWPAJN_4nnZvNpkI7So5zF-objaupsiI8dNFsQqj-C=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczM40TvqKGMV2fl-plDMqie1HIAjPoCbos8-okSKVwJ2k0U_Mb3sbJ1gJHKSRRjDOpoPITgglSYWPAJN_4nnZvNpkI7So5zF-objaupsiI8dNFsQqj-C=w400-h300-no
+  alt: Album photo 3
+- src: https://lh3.googleusercontent.com/pw/AP1GczM5jgpdLKQV_qCaG-TPk-DrAmgoFNrznr6lPhBoONjAgimw2yJ6yPN3UgFl-Qb--Tr3l63qDUJKnih79A4S2TMyAoO7hZbRDvDkEunbydIJ6QYHBvyZ=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczM5jgpdLKQV_qCaG-TPk-DrAmgoFNrznr6lPhBoONjAgimw2yJ6yPN3UgFl-Qb--Tr3l63qDUJKnih79A4S2TMyAoO7hZbRDvDkEunbydIJ6QYHBvyZ=w400-h300-no
+  alt: Album photo 4
+- src: https://lh3.googleusercontent.com/pw/AP1GczM61N0SJvFg6V8LfOenjF2WVm4XKg0-jAAm9eWqqwNkN0HlXGG9wZYxnssY936XKB1fTain_sqrQkFzaPcIBYAWgT0PeENk-J94uE7qSi9yDbNv8zi9=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczM61N0SJvFg6V8LfOenjF2WVm4XKg0-jAAm9eWqqwNkN0HlXGG9wZYxnssY936XKB1fTain_sqrQkFzaPcIBYAWgT0PeENk-J94uE7qSi9yDbNv8zi9=w400-h300-no
+  alt: Album photo 5
+- src: https://lh3.googleusercontent.com/pw/AP1GczM6_uhtgODuYI35hHnq3jop_VIerZ6Y5QuF1CKBSNeuLfD_u38XTUstuuZx1FNwOscA_4Fn7GY7zCajTD8zF6x5mpnwFkPmblaQ5Wjr2fdgS0Hk0Bl6=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczM6_uhtgODuYI35hHnq3jop_VIerZ6Y5QuF1CKBSNeuLfD_u38XTUstuuZx1FNwOscA_4Fn7GY7zCajTD8zF6x5mpnwFkPmblaQ5Wjr2fdgS0Hk0Bl6=w400-h300-no
+  alt: Album photo 6
+- src: https://lh3.googleusercontent.com/pw/AP1GczM6vI1ag9A0cJ2dLcusVvEf3NTrAnottbrk0D3ZAmlRvAUcRDApEq1lpMRcNfCIALE_xo2xa6mr7yR5NBwQdRJTZh6hdyx-_LmF2G8qOVhU9pd0jx01=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczM6vI1ag9A0cJ2dLcusVvEf3NTrAnottbrk0D3ZAmlRvAUcRDApEq1lpMRcNfCIALE_xo2xa6mr7yR5NBwQdRJTZh6hdyx-_LmF2G8qOVhU9pd0jx01=w400-h300-no
+  alt: Album photo 7
+- src: https://lh3.googleusercontent.com/pw/AP1GczMBfLBoBLASn17tz4PhsbjFTmQpL8RldAymUXcjt1S0NHEnImUy6S-vhFgV8aFblEY4yzC0j7l84d9mDSbywSQpkTF1cvNjiu3QflCTWyhPeZwKl6Q9=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMBfLBoBLASn17tz4PhsbjFTmQpL8RldAymUXcjt1S0NHEnImUy6S-vhFgV8aFblEY4yzC0j7l84d9mDSbywSQpkTF1cvNjiu3QflCTWyhPeZwKl6Q9=w400-h300-no
+  alt: Album photo 8
+- src: https://lh3.googleusercontent.com/pw/AP1GczMBkRaU9W3CxvkfBeEeWFZwPPg4zTcZU83YEa1kS7ZfKwDYdqqHlIWOERUgP5ijH2CkhICHm9Pb-QSn-hezcCslrxU6ZSPP1OgD0ZVrdRHg9DJ6iEXk=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMBkRaU9W3CxvkfBeEeWFZwPPg4zTcZU83YEa1kS7ZfKwDYdqqHlIWOERUgP5ijH2CkhICHm9Pb-QSn-hezcCslrxU6ZSPP1OgD0ZVrdRHg9DJ6iEXk=w400-h300-no
+  alt: Album photo 9
+- src: https://lh3.googleusercontent.com/pw/AP1GczMItl8vJDlPSJ-c0025jopK6rqXYOGqXbqZonfVNf_1P_WGAWZdzFecRw-KtfNpaQHKH6p65j-IQ4PdGiw9p7V7xWk-U55NF9-xkNoEM3xSJnpepbt1=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMItl8vJDlPSJ-c0025jopK6rqXYOGqXbqZonfVNf_1P_WGAWZdzFecRw-KtfNpaQHKH6p65j-IQ4PdGiw9p7V7xWk-U55NF9-xkNoEM3xSJnpepbt1=w400-h300-no
+  alt: Album photo 10
+- src: https://lh3.googleusercontent.com/pw/AP1GczMM8MW65UpBiQeN-d03mfM6UwFoMUNI8sRBkP5PZWttLtadtpfWmO1Xy6mRxwqm53Ic8ms9qVfbLdUn_VWu1MLyLB4h_SnWtDpOcE2W5Sc3HD_G9qVh=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMM8MW65UpBiQeN-d03mfM6UwFoMUNI8sRBkP5PZWttLtadtpfWmO1Xy6mRxwqm53Ic8ms9qVfbLdUn_VWu1MLyLB4h_SnWtDpOcE2W5Sc3HD_G9qVh=w400-h300-no
+  alt: Album photo 11
+- src: https://lh3.googleusercontent.com/pw/AP1GczMMU3BF1rtNVEFwsWQT_TztT2dT2FdhsFGo-YRx7b8AwSJmAffk4JJOiGeV41_hz9gYzzHuJ_nQ1uE3Ljkd7MFPPCmk1NVaW0pMvCCLb0-PjweF_zFv=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMMU3BF1rtNVEFwsWQT_TztT2dT2FdhsFGo-YRx7b8AwSJmAffk4JJOiGeV41_hz9gYzzHuJ_nQ1uE3Ljkd7MFPPCmk1NVaW0pMvCCLb0-PjweF_zFv=w400-h300-no
+  alt: Album photo 12
+- src: https://lh3.googleusercontent.com/pw/AP1GczMNJWHbNgnq4PROz4dR4oF7Ig-1vvfxBQ6AZ3eMB2EGV-iXeZxEZXVoFWmDJnEwOeTJh00sxsk1z0qFv99dPS_CN9vLcamJcIsjmGxpKDYpEeGu7xQS=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMNJWHbNgnq4PROz4dR4oF7Ig-1vvfxBQ6AZ3eMB2EGV-iXeZxEZXVoFWmDJnEwOeTJh00sxsk1z0qFv99dPS_CN9vLcamJcIsjmGxpKDYpEeGu7xQS=w400-h300-no
+  alt: Album photo 13
+- src: https://lh3.googleusercontent.com/pw/AP1GczMNUCbGT2PBV7R1KB-DIQkU8grdM3oedh7DWvKy_qx2eUbI6j_XKzdhVcQv5hTVALeW3XWjzvLlkxFnoE-aVJCGiINppLoAd5lUf93ugeLjodAPK-B6=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMNUCbGT2PBV7R1KB-DIQkU8grdM3oedh7DWvKy_qx2eUbI6j_XKzdhVcQv5hTVALeW3XWjzvLlkxFnoE-aVJCGiINppLoAd5lUf93ugeLjodAPK-B6=w400-h300-no
+  alt: Album photo 14
+- src: https://lh3.googleusercontent.com/pw/AP1GczMQRG2l5MoQeN7QOUjNB1m8VZzyvjKNHGgNzJZTgU0eAsrkAPUk618qHXnagurTmYjpvpor_EyAMz4yGIyLp-BtO_KP7F1jiJvyMo6b1Cl8o3Jmc2Oj=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMQRG2l5MoQeN7QOUjNB1m8VZzyvjKNHGgNzJZTgU0eAsrkAPUk618qHXnagurTmYjpvpor_EyAMz4yGIyLp-BtO_KP7F1jiJvyMo6b1Cl8o3Jmc2Oj=w400-h300-no
+  alt: Album photo 15
+- src: https://lh3.googleusercontent.com/pw/AP1GczMQmSDTRIuA1WwAWxM4zVMOn1xtC9bcgNTUFhXVME1490ytwSpN2pqoHlKoan6s6BzxiuN6pYWRdy1WtleYM6hbOcD8UzVYTIE8ua_APp7r8MPWl3As=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMQmSDTRIuA1WwAWxM4zVMOn1xtC9bcgNTUFhXVME1490ytwSpN2pqoHlKoan6s6BzxiuN6pYWRdy1WtleYM6hbOcD8UzVYTIE8ua_APp7r8MPWl3As=w400-h300-no
+  alt: Album photo 16
+- src: https://lh3.googleusercontent.com/pw/AP1GczMRKtEizzUIrevKyC5KCiunvrd--0Tv1a7_yf8w3JISg9Gj95Ylnugxw8DY-bskatvMqRep_wsLD4shSdMelnh9xMKk1oOCzvS-Ns1gM24EY2B3SasA=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMRKtEizzUIrevKyC5KCiunvrd--0Tv1a7_yf8w3JISg9Gj95Ylnugxw8DY-bskatvMqRep_wsLD4shSdMelnh9xMKk1oOCzvS-Ns1gM24EY2B3SasA=w400-h300-no
+  alt: Album photo 17
+- src: https://lh3.googleusercontent.com/pw/AP1GczMR_bMrXVoGJ1Xmhp28npbkxtjNiOtNvsbTbp8RHZAiyHCUKyb5d4ZDUB3iM84xU19xrMJpeWnW8qL5FNo2KB4n7YROrDppaa5-SHn5n2vhapZ2AmD5=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMR_bMrXVoGJ1Xmhp28npbkxtjNiOtNvsbTbp8RHZAiyHCUKyb5d4ZDUB3iM84xU19xrMJpeWnW8qL5FNo2KB4n7YROrDppaa5-SHn5n2vhapZ2AmD5=w400-h300-no
+  alt: Album photo 18
+- src: https://lh3.googleusercontent.com/pw/AP1GczMTC2-PJ8f8y4yLC4aXTwPxWa91DTXVOMvt2r_HskGVN_aIdVbcqa-F7ii7X7R8gNfRKDcOMnXm6uBwml4apyG1H2Rzv0jxv_ZM01DvPqzzsOajEvR2=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMTC2-PJ8f8y4yLC4aXTwPxWa91DTXVOMvt2r_HskGVN_aIdVbcqa-F7ii7X7R8gNfRKDcOMnXm6uBwml4apyG1H2Rzv0jxv_ZM01DvPqzzsOajEvR2=w400-h300-no
+  alt: Album photo 19
+- src: https://lh3.googleusercontent.com/pw/AP1GczMW-ou5-vcrQaFNSONLfu0ODIWvpRUXxLW--U8sNRLc-CIwy5P4K8GnPyrT6Atlrwy7aR68W19n-P2-4opoSFTmFxqGImFlg0HXhMZ96c6EMyUkgXwH=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMW-ou5-vcrQaFNSONLfu0ODIWvpRUXxLW--U8sNRLc-CIwy5P4K8GnPyrT6Atlrwy7aR68W19n-P2-4opoSFTmFxqGImFlg0HXhMZ96c6EMyUkgXwH=w400-h300-no
+  alt: Album photo 20
+- src: https://lh3.googleusercontent.com/pw/AP1GczMXkFD4wkWzWZDa3zxjthjXnE5SKs-Kz88QDwfnBGQ_SxXj-6SWYV31gn4aKyJ3M9BckONT6JrwY--JxRKSIzcLQsF5c-321kOSab4j_6ADIkdZkK8h=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMXkFD4wkWzWZDa3zxjthjXnE5SKs-Kz88QDwfnBGQ_SxXj-6SWYV31gn4aKyJ3M9BckONT6JrwY--JxRKSIzcLQsF5c-321kOSab4j_6ADIkdZkK8h=w400-h300-no
+  alt: Album photo 21
+- src: https://lh3.googleusercontent.com/pw/AP1GczM__cGGaOJEzR_or8R-ekZQKK4ov0g_dXbuRZ6mzquGnLtKq-XY7V7z7s04CM5alSh3uLFuW5VgciCMyZUdnSey3Zjl73EGqHq8OxM7LVAhTvAiIiY0=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczM__cGGaOJEzR_or8R-ekZQKK4ov0g_dXbuRZ6mzquGnLtKq-XY7V7z7s04CM5alSh3uLFuW5VgciCMyZUdnSey3Zjl73EGqHq8OxM7LVAhTvAiIiY0=w400-h300-no
+  alt: Album photo 22
+- src: https://lh3.googleusercontent.com/pw/AP1GczMb68XpB550K6E1R83rE7t8q5xjTNBKNnp6gQxLhbIGEgA-bRcx1hMvCgVKLQr8Cv8v8ptOf0Hx1lIQk4BeoLB1NmkOFuFqkC1lOUgX8LUMIuDbhai7=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMb68XpB550K6E1R83rE7t8q5xjTNBKNnp6gQxLhbIGEgA-bRcx1hMvCgVKLQr8Cv8v8ptOf0Hx1lIQk4BeoLB1NmkOFuFqkC1lOUgX8LUMIuDbhai7=w400-h300-no
+  alt: Album photo 23
+- src: https://lh3.googleusercontent.com/pw/AP1GczMc8rysxj7Vf1dr_RxLb1SzofBu9wCQWb48P5ACjP068zPtu_ad1SP0KyvWqirfXMoDSeLRic57HxqHdV03A3WjfHkm6icnE35FBqOd5-cdndLvQ9ri=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMc8rysxj7Vf1dr_RxLb1SzofBu9wCQWb48P5ACjP068zPtu_ad1SP0KyvWqirfXMoDSeLRic57HxqHdV03A3WjfHkm6icnE35FBqOd5-cdndLvQ9ri=w400-h300-no
+  alt: Album photo 24
+- src: https://lh3.googleusercontent.com/pw/AP1GczMd4O5XbIUbJbxOh15VOpOYvhOhio2mtnicf4EZpsfr6p_veWRwzPZzbcLyi1_KD10PyMERH8QCrf_oL7FLH73v1gqOS5-2taF8eBqpWLRXFgTF_9TU=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMd4O5XbIUbJbxOh15VOpOYvhOhio2mtnicf4EZpsfr6p_veWRwzPZzbcLyi1_KD10PyMERH8QCrf_oL7FLH73v1gqOS5-2taF8eBqpWLRXFgTF_9TU=w400-h300-no
+  alt: Album photo 25
+- src: https://lh3.googleusercontent.com/pw/AP1GczMdT5k5QIwhY2baROgqLgPU7ql-SwogRElErad6NG2MZ62vO0-eMGQZhdI9yrOzteJ4FvUImvJUK1u2qFHQMuLzRf4yjMHwAodNpLJa1XOmjAIrxRUg=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMdT5k5QIwhY2baROgqLgPU7ql-SwogRElErad6NG2MZ62vO0-eMGQZhdI9yrOzteJ4FvUImvJUK1u2qFHQMuLzRf4yjMHwAodNpLJa1XOmjAIrxRUg=w400-h300-no
+  alt: Album photo 26
+- src: https://lh3.googleusercontent.com/pw/AP1GczMdrCN1cpdFESbCevDUruF_0iSFfHN-jrlbzI61HrTqYbqEtOUkSn24N-_KFpY-DDScp6WX7Ho93KaQmH07hFx7GLewYjDGEKRtl2JeucrF-vNtMIkI=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMdrCN1cpdFESbCevDUruF_0iSFfHN-jrlbzI61HrTqYbqEtOUkSn24N-_KFpY-DDScp6WX7Ho93KaQmH07hFx7GLewYjDGEKRtl2JeucrF-vNtMIkI=w400-h300-no
+  alt: Album photo 27
+- src: https://lh3.googleusercontent.com/pw/AP1GczMp9cBNUxsrnn3Wc7oKA4E5cyOl5-0J0AZhEx85H0bz1JiJaO8mEHRwnh-rDL4wgM-qUW4wHeUsiVYjjexQrVIDWgxnJ3L-_9kMTsnMfdGmDF8Del9Z=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczMp9cBNUxsrnn3Wc7oKA4E5cyOl5-0J0AZhEx85H0bz1JiJaO8mEHRwnh-rDL4wgM-qUW4wHeUsiVYjjexQrVIDWgxnJ3L-_9kMTsnMfdGmDF8Del9Z=w400-h300-no
+  alt: Album photo 28
+- src: https://lh3.googleusercontent.com/pw/AP1GczN2ArnU1LIwTw8X4n65xDYWCpPb_teAVfNAxYZmqKz2C9rzOVT0Wx25hhHYy5OBgzjPwuh7631FgZ9roJKSOQPuK3d07IPaoEQMdvQMEbXfqAdC-Oa4=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczN2ArnU1LIwTw8X4n65xDYWCpPb_teAVfNAxYZmqKz2C9rzOVT0Wx25hhHYy5OBgzjPwuh7631FgZ9roJKSOQPuK3d07IPaoEQMdvQMEbXfqAdC-Oa4=w400-h300-no
+  alt: Album photo 29
+- src: https://lh3.googleusercontent.com/pw/AP1GczN2j7MLcneYWRi0bk-ZxunGgvM8jiHJPmyzYyE6Pmrw_gpzDrI1rOSMEVkoYNT1wwiDY8-lLUQzUF9MGRNlsGzrwre4C4tCkziW_w8SXdBS933uRKts=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczN2j7MLcneYWRi0bk-ZxunGgvM8jiHJPmyzYyE6Pmrw_gpzDrI1rOSMEVkoYNT1wwiDY8-lLUQzUF9MGRNlsGzrwre4C4tCkziW_w8SXdBS933uRKts=w400-h300-no
+  alt: Album photo 30
+- src: https://lh3.googleusercontent.com/pw/AP1GczN564Ro5s1ukpsF_lbJ_HgtCpocDy68br6q75DaAUEPnLr6S4D2qqVkLZFlb9EogIHopptXhOol6CYYSPJ__0aKr9-2mj0StBbeAiN8ZSsFcKnYGiDJ=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczN564Ro5s1ukpsF_lbJ_HgtCpocDy68br6q75DaAUEPnLr6S4D2qqVkLZFlb9EogIHopptXhOol6CYYSPJ__0aKr9-2mj0StBbeAiN8ZSsFcKnYGiDJ=w400-h300-no
+  alt: Album photo 31
+- src: https://lh3.googleusercontent.com/pw/AP1GczN5Ne4m-y7ye7NNU5BTQi-120LdUxGyJ4VOZVe65qK_R-w-k9_Q4VTv4hHdMCfo5fOOYxUM1Bp1oczWvPABLmTBZAcBQjkHNdZb724QeigRMrmt8Ajt=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczN5Ne4m-y7ye7NNU5BTQi-120LdUxGyJ4VOZVe65qK_R-w-k9_Q4VTv4hHdMCfo5fOOYxUM1Bp1oczWvPABLmTBZAcBQjkHNdZb724QeigRMrmt8Ajt=w400-h300-no
+  alt: Album photo 32
+- src: https://lh3.googleusercontent.com/pw/AP1GczN8gylKnlvr8UBt9wjfamb9z3RKWqHPaLZhteV2QitRcnI0xGpg6I878tySczU3oS8gDn9WAOkCSzsyaH63nzgVpypky7SUyo82x8QTOnxgYg_qOuUn=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczN8gylKnlvr8UBt9wjfamb9z3RKWqHPaLZhteV2QitRcnI0xGpg6I878tySczU3oS8gDn9WAOkCSzsyaH63nzgVpypky7SUyo82x8QTOnxgYg_qOuUn=w400-h300-no
+  alt: Album photo 33
+- src: https://lh3.googleusercontent.com/pw/AP1GczN8iRpZaD2xWPHBTkPxZROCurf4pJreLIzmWG0BuTyiYyJ8fbnmuIfz1M65NnmyWdTssfGr8rsZA_Vc8o_SKY_hr9zGIY0aSD8ocojrkhnUoM9jRfl0=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczN8iRpZaD2xWPHBTkPxZROCurf4pJreLIzmWG0BuTyiYyJ8fbnmuIfz1M65NnmyWdTssfGr8rsZA_Vc8o_SKY_hr9zGIY0aSD8ocojrkhnUoM9jRfl0=w400-h300-no
+  alt: Album photo 34
+- src: https://lh3.googleusercontent.com/pw/AP1GczN9GjB800m2qJHBHL3FHEkVfhUYWXmv9qvlahkITXI1A_YaS2VjpdxnMDFMhK9oA29hDyfNdR8iIpXC1rGVtML3JdFBI2NmoCeixonjqslwfLbIAAlt=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczN9GjB800m2qJHBHL3FHEkVfhUYWXmv9qvlahkITXI1A_YaS2VjpdxnMDFMhK9oA29hDyfNdR8iIpXC1rGVtML3JdFBI2NmoCeixonjqslwfLbIAAlt=w400-h300-no
+  alt: Album photo 35
+- src: https://lh3.googleusercontent.com/pw/AP1GczNANQo9JxbeQnPO7taQTSB9LIvH0iqS74ubbauieYwODZrZrejRGBzUIREDutqylPkYZ5S2KQNYFGTfXSUlS-sEoskJ6NBnUcKn-lacqST_pAeq7Ttw=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNANQo9JxbeQnPO7taQTSB9LIvH0iqS74ubbauieYwODZrZrejRGBzUIREDutqylPkYZ5S2KQNYFGTfXSUlS-sEoskJ6NBnUcKn-lacqST_pAeq7Ttw=w400-h300-no
+  alt: Album photo 36
+- src: https://lh3.googleusercontent.com/pw/AP1GczNAo4tQoVHHkziFpBeUp_agyvFJkJEHZc3RaV7cXjn2BLZbBc8ZqokNol967zfKrI1pUOdEs0VmXkQ9088oWoVL9sQRDXP-wypUaWKQMkV20uwXKErm=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNAo4tQoVHHkziFpBeUp_agyvFJkJEHZc3RaV7cXjn2BLZbBc8ZqokNol967zfKrI1pUOdEs0VmXkQ9088oWoVL9sQRDXP-wypUaWKQMkV20uwXKErm=w400-h300-no
+  alt: Album photo 37
+- src: https://lh3.googleusercontent.com/pw/AP1GczNF6Lh9L7wi76fAy5xknhTfMekr31X2VKdeJm_EylI5CFNlu4XGoQexIeIi4qvsf_dgNfHsA-wxbbpkWT0I6bMPHXU5ZN_EzAmHIDu6_Q8qLnTgijLF=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNF6Lh9L7wi76fAy5xknhTfMekr31X2VKdeJm_EylI5CFNlu4XGoQexIeIi4qvsf_dgNfHsA-wxbbpkWT0I6bMPHXU5ZN_EzAmHIDu6_Q8qLnTgijLF=w400-h300-no
+  alt: Album photo 38
+- src: https://lh3.googleusercontent.com/pw/AP1GczNFsjo8KJ44n_Nudzv2gZh4qEqoMpuRdhOh-YhhplrOlp0Fl83tGw2032VWn5cvLVnoyE1rHfjYAKjnKElEOaGGZj36fbL4YjZ8akCFtSeUeFDXMuxV=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNFsjo8KJ44n_Nudzv2gZh4qEqoMpuRdhOh-YhhplrOlp0Fl83tGw2032VWn5cvLVnoyE1rHfjYAKjnKElEOaGGZj36fbL4YjZ8akCFtSeUeFDXMuxV=w400-h300-no
+  alt: Album photo 39
+- src: https://lh3.googleusercontent.com/pw/AP1GczNG0QimiRIzZNPfZxvndGowUCOLqrSudjhLo8ycEsn9dCuHgPxEDMNDF2V8n-RwMrt8I7ZlWJteriCMM-oIMa-LKD4deQt4cxZviBrln9zWCEx5wpXp=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNG0QimiRIzZNPfZxvndGowUCOLqrSudjhLo8ycEsn9dCuHgPxEDMNDF2V8n-RwMrt8I7ZlWJteriCMM-oIMa-LKD4deQt4cxZviBrln9zWCEx5wpXp=w400-h300-no
+  alt: Album photo 40
+- src: https://lh3.googleusercontent.com/pw/AP1GczNGsnM6T0GS4s0ZA6nWK-54Fel-R0F76PeJmV8P8pkMBAMJjG20GRU2HqPKUUoTszAOSdjsSBsWaBIcrzUg8RZw8yez6oytLNw8g_gKj_8iaYMnmi6T=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNGsnM6T0GS4s0ZA6nWK-54Fel-R0F76PeJmV8P8pkMBAMJjG20GRU2HqPKUUoTszAOSdjsSBsWaBIcrzUg8RZw8yez6oytLNw8g_gKj_8iaYMnmi6T=w400-h300-no
+  alt: Album photo 41
+- src: https://lh3.googleusercontent.com/pw/AP1GczNIICmqFSRlE24js3A7n-ZmwCM3KUu-fFR-AtO-D1xSA1zdwJ3mTblN2me2EEwFK670-MLJ4042EdMD5AFz-ZhR6dhAIaxqoXAIXRCheyYDXKOaxEev=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNIICmqFSRlE24js3A7n-ZmwCM3KUu-fFR-AtO-D1xSA1zdwJ3mTblN2me2EEwFK670-MLJ4042EdMD5AFz-ZhR6dhAIaxqoXAIXRCheyYDXKOaxEev=w400-h300-no
+  alt: Album photo 42
+- src: https://lh3.googleusercontent.com/pw/AP1GczNKNH_J-U_zdUoB-JqT3xo3fleAUT6RYD8Xvvu301Qi5eK54K4sRQLyFcSU8mwkccYES-khozr_xXFwACK0Dak6yWgtS3XTqz064sCISSaPPu1xT1y2=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNKNH_J-U_zdUoB-JqT3xo3fleAUT6RYD8Xvvu301Qi5eK54K4sRQLyFcSU8mwkccYES-khozr_xXFwACK0Dak6yWgtS3XTqz064sCISSaPPu1xT1y2=w400-h300-no
+  alt: Album photo 43
+- src: https://lh3.googleusercontent.com/pw/AP1GczNKS9Ecr_KIhXbNOeOCn_2nTcpYRUSGyahBZ1sIu8NZgaayntlR9az09aJHNpzDbl1xUgGFN6WpFVbRMpbbpohfQTGicZFtKG_M1TdaLKrz2fl-F1VT=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNKS9Ecr_KIhXbNOeOCn_2nTcpYRUSGyahBZ1sIu8NZgaayntlR9az09aJHNpzDbl1xUgGFN6WpFVbRMpbbpohfQTGicZFtKG_M1TdaLKrz2fl-F1VT=w400-h300-no
+  alt: Album photo 44
+- src: https://lh3.googleusercontent.com/pw/AP1GczNKf2C5Hq6cDW_5CE3FA_RoespvWKkcP4422BV7dIiQz27HUDAsxztwiH6nwEgoCUVdlHQ_uofWCeDlYz8N4vewSghO2IuesczRyUoTllefesR5fazU=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNKf2C5Hq6cDW_5CE3FA_RoespvWKkcP4422BV7dIiQz27HUDAsxztwiH6nwEgoCUVdlHQ_uofWCeDlYz8N4vewSghO2IuesczRyUoTllefesR5fazU=w400-h300-no
+  alt: Album photo 45
+- src: https://lh3.googleusercontent.com/pw/AP1GczNL0daOJcSr1m4JaViyxu8m1KouJm3qUbuvmQ7QuQSEZppY70CTo15Gid8YkczJicj6LgaWMo6ab2L2KcPSjmtIOG_1BrHZz2suYpLxegLBfdMJB5hi=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNL0daOJcSr1m4JaViyxu8m1KouJm3qUbuvmQ7QuQSEZppY70CTo15Gid8YkczJicj6LgaWMo6ab2L2KcPSjmtIOG_1BrHZz2suYpLxegLBfdMJB5hi=w400-h300-no
+  alt: Album photo 46
+- src: https://lh3.googleusercontent.com/pw/AP1GczNOInmy6rZq5WpIUHTSQi2ex5EC6QmtfPzBaALV4zpcGV373ZX1VghA-TPeqRs8gjR0O0Y-gDfE12UST-MwO2x9CeP4aVTvW40rtaefy93Eate-XQ_Y=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNOInmy6rZq5WpIUHTSQi2ex5EC6QmtfPzBaALV4zpcGV373ZX1VghA-TPeqRs8gjR0O0Y-gDfE12UST-MwO2x9CeP4aVTvW40rtaefy93Eate-XQ_Y=w400-h300-no
+  alt: Album photo 47
+- src: https://lh3.googleusercontent.com/pw/AP1GczNP5MJFZuG2PRs34u6fGYW4_jyYwRwhIb2-sg6lhzrf3CoxQ_lCdsQQmmecrnmp7tmjMqoQ5b7RkNWnj-0fCpGpMe10vXcmxo2_oxcNROIV18PtxOpk=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNP5MJFZuG2PRs34u6fGYW4_jyYwRwhIb2-sg6lhzrf3CoxQ_lCdsQQmmecrnmp7tmjMqoQ5b7RkNWnj-0fCpGpMe10vXcmxo2_oxcNROIV18PtxOpk=w400-h300-no
+  alt: Album photo 48
+- src: https://lh3.googleusercontent.com/pw/AP1GczNPR4q6ztaJ6Zk2wzr4c10cpG9GAuavLEDp7VoRG6xkcGsKLyTsu_iCElnyaW92JqcPZoZlyNctBi7MmRxh_BsgLyr6U2e9NTcCfDbPogGBxJAAyaV5=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNPR4q6ztaJ6Zk2wzr4c10cpG9GAuavLEDp7VoRG6xkcGsKLyTsu_iCElnyaW92JqcPZoZlyNctBi7MmRxh_BsgLyr6U2e9NTcCfDbPogGBxJAAyaV5=w400-h300-no
+  alt: Album photo 49
+- src: https://lh3.googleusercontent.com/pw/AP1GczNUaT6fs1adzA-x902kngrtlHzf2G7t5RXWQWWPqxJISTUQ9UOs3UNIdoIjp-NvW7o2vq_bbTHU43BP10tzMn5SSgElzzBjhijZbsnEeEwopVaWyzKe=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNUaT6fs1adzA-x902kngrtlHzf2G7t5RXWQWWPqxJISTUQ9UOs3UNIdoIjp-NvW7o2vq_bbTHU43BP10tzMn5SSgElzzBjhijZbsnEeEwopVaWyzKe=w400-h300-no
+  alt: Album photo 50
+- src: https://lh3.googleusercontent.com/pw/AP1GczNWIUs_0E3TJh72Aco6kucOQmjsCFN3fsj4B3nCT-S0RN1qEpMETxMR57C8X7eL1U-JbAm1oIba97h2tkakXBeVJBu4xbpbhrwqFwAEOXgoIeoSZhv3=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNWIUs_0E3TJh72Aco6kucOQmjsCFN3fsj4B3nCT-S0RN1qEpMETxMR57C8X7eL1U-JbAm1oIba97h2tkakXBeVJBu4xbpbhrwqFwAEOXgoIeoSZhv3=w400-h300-no
+  alt: Album photo 51
+- src: https://lh3.googleusercontent.com/pw/AP1GczNY-aDBv4Hc8C2PN1dlHxoO0V5FuIANTaEUYrIOWVqysViOWkFj3_euAzMZ9WtKBQop5-qACR3CRCKchd06km8hEh6gaNNWHkn89XOAScFKY4eeTrE9=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNY-aDBv4Hc8C2PN1dlHxoO0V5FuIANTaEUYrIOWVqysViOWkFj3_euAzMZ9WtKBQop5-qACR3CRCKchd06km8hEh6gaNNWHkn89XOAScFKY4eeTrE9=w400-h300-no
+  alt: Album photo 52
+- src: https://lh3.googleusercontent.com/pw/AP1GczNYO1RUNrCwUjiOoosilzydUD-TQdKqvsFKOxMLvl375kDKrlkyLhRf3T77vPI808ZxP9XlVRb7RYjt6T1ITM_TBVS_SEAZgWYfQvbWiTgdr4CBi9Qe=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNYO1RUNrCwUjiOoosilzydUD-TQdKqvsFKOxMLvl375kDKrlkyLhRf3T77vPI808ZxP9XlVRb7RYjt6T1ITM_TBVS_SEAZgWYfQvbWiTgdr4CBi9Qe=w400-h300-no
+  alt: Album photo 53
+- src: https://lh3.googleusercontent.com/pw/AP1GczNYTBheQYkQggG9Ll8U7y46DILPqfuA0X0kypiwf-m6kIBKdBx5Un1G-iAKzeutapLv51dAMd7DEwZQK_voKI46Tk16Wg3DiRadv2Ujzrg9bWT9GMlM=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNYTBheQYkQggG9Ll8U7y46DILPqfuA0X0kypiwf-m6kIBKdBx5Un1G-iAKzeutapLv51dAMd7DEwZQK_voKI46Tk16Wg3DiRadv2Ujzrg9bWT9GMlM=w400-h300-no
+  alt: Album photo 54
+- src: https://lh3.googleusercontent.com/pw/AP1GczN_PIfxjg698BeHqiFRmMjSCyf438IwZAEYXL0U7MXIfS1cEGblDc8YR4OHDzMeeVFV3lNc8vUS0GrObVmEqkRQ6BK3Jb-wueaRBOhFHLSP-tsD-JGy=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczN_PIfxjg698BeHqiFRmMjSCyf438IwZAEYXL0U7MXIfS1cEGblDc8YR4OHDzMeeVFV3lNc8vUS0GrObVmEqkRQ6BK3Jb-wueaRBOhFHLSP-tsD-JGy=w400-h300-no
+  alt: Album photo 55
+- src: https://lh3.googleusercontent.com/pw/AP1GczN_tEuyunWqbOseVfuV9zGv2gjDo6ZHvcrfwKbiiU-l8xH3ih83AHNZ87UKLQ63ZtrWEVTi9xOOIszhcGnS8Ru3QLzTQMBb3n7OV29xyxJ80N_DX5Yk=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczN_tEuyunWqbOseVfuV9zGv2gjDo6ZHvcrfwKbiiU-l8xH3ih83AHNZ87UKLQ63ZtrWEVTi9xOOIszhcGnS8Ru3QLzTQMBb3n7OV29xyxJ80N_DX5Yk=w400-h300-no
+  alt: Album photo 56
+- src: https://lh3.googleusercontent.com/pw/AP1GczNalpH4bEM4GexuJDVUr0_5KPB3OVjEsmKQlMnxDWfxY4pwm5Kd2mmxAaRd0RbnfQiOvKfXEcZJME-6AgU-PgKQBRfPBM36PcSTIUWkh-qEnz-EM86o=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNalpH4bEM4GexuJDVUr0_5KPB3OVjEsmKQlMnxDWfxY4pwm5Kd2mmxAaRd0RbnfQiOvKfXEcZJME-6AgU-PgKQBRfPBM36PcSTIUWkh-qEnz-EM86o=w400-h300-no
+  alt: Album photo 57
+- src: https://lh3.googleusercontent.com/pw/AP1GczNc_eN26hX5ZAfvPo24mNY0XfAHIPCiuD_rGHZdYYob3eEr9ZjIGrfwhSt_B2Kir9lSQxWyYVlMIm5G7FXpKDmGG9wXFK25vh3ustCXKgOEfuosNBd2=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNc_eN26hX5ZAfvPo24mNY0XfAHIPCiuD_rGHZdYYob3eEr9ZjIGrfwhSt_B2Kir9lSQxWyYVlMIm5G7FXpKDmGG9wXFK25vh3ustCXKgOEfuosNBd2=w400-h300-no
+  alt: Album photo 58
+- src: https://lh3.googleusercontent.com/pw/AP1GczNcz35tsv4oHlP194gq8VGTjC0pZ_H_SvnmQ_nD0EBonF1lNrrRdeeT8C5teM-yn5I_jMn9yTUSM3yYBKEJyeTitMhodBNha7_cLQVI8NqMW9ZxHbcf=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNcz35tsv4oHlP194gq8VGTjC0pZ_H_SvnmQ_nD0EBonF1lNrrRdeeT8C5teM-yn5I_jMn9yTUSM3yYBKEJyeTitMhodBNha7_cLQVI8NqMW9ZxHbcf=w400-h300-no
+  alt: Album photo 59
+- src: https://lh3.googleusercontent.com/pw/AP1GczNiXDnASpdX0t0vpaU-c-KgyE1a2A8hxLYztOcaqla_IQB4DTHDOltNyN8q3eNiEpsCTDerCpEUWOZJnFuo75XqeEjiSUC9liMVM8VT3E3EADScKjD_=w1600-h1200-no
+  thumb: https://lh3.googleusercontent.com/pw/AP1GczNiXDnASpdX0t0vpaU-c-KgyE1a2A8hxLYztOcaqla_IQB4DTHDOltNyN8q3eNiEpsCTDerCpEUWOZJnFuo75XqeEjiSUC9liMVM8VT3E3EADScKjD_=w400-h300-no
+  alt: Album photo 60
+news:
+- title: Example News Feature
+  publication: The Daily Chronicle
+  date: '2024-02-15'
+  url: https://example.com/news/sample-feature
+  summary: Short summary of the coverage. Replace with the actual news blurb.
+  tags:
+  - press
+  - leadership
+documents: []
