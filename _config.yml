@@ -54,3 +54,10 @@ footer:
       url: "/content/vcbio.pdf"
     - label: "Awards"
       url: "/achievements/#awards-and-honors"
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      author_profile: true

@@ -13,8 +13,8 @@ Kurunji Nagar, Vandalur
 Chennai - 600 048  
 Tamil Nadu, India
 
-**Fax**  
-0091-44-2229 9005
+**Phone**  
++91-9840090652
 </div>
 
 <div class="lang-content lang-ta" markdown="1">

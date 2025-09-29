@@ -1,0 +1,29 @@
+<nav id="site-nav" class="simple-nav" aria-label="Primary Navigation">
+  <a class="site-title" href="{{ '/' | relative_url }}">
+    {% if site.logo %}
+      <img src="{{ site.logo | relative_url }}" alt="{{ site.title | default: site.name | escape }}" class="simple-nav__logo">
+    {% else %}
+      {{ site.title | escape }}
+    {% endif %}
+  </a>
+  <ul class="simple-nav__list">
+    {% assign current_url = page.url | relative_url %}
+    {% for item in site.data.navigation.main %}
+      {% assign title = item.title | default: item.name %}
+      {% assign item_url = item.url | relative_url %}
+      {% assign is_current = item_url == current_url %}
+      {% assign link_classes = '' %}
+      {% if is_current %}
+        {% assign link_classes = 'is-active' %}
+      {% endif %}
+      <li class="masthead__menu-item{% if is_current %} masthead__menu-item--active{% endif %}">
+        <a
+          href="{{ item_url }}"
+          {% if link_classes != '' %}class="{{ link_classes }}"{% endif %}
+          {% if item.description %}title="{{ item.description | escape }}"{% endif %}
+          {% if item.new_window %}target="_blank" rel="noopener"{% endif %}
+        >{{ title | escape }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

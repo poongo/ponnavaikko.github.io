@@ -120,10 +120,10 @@
   }
 
   function injectNavToggle() {
-    const nav = document.querySelector('.masthead .greedy-nav');
+    const nav = document.querySelector('.masthead .simple-nav');
     if (!nav) return;
 
-    const menuList = nav.querySelector('.visible-links');
+    const menuList = nav.querySelector('.simple-nav__list');
     if (!menuList) return;
 
     if (menuList.querySelector('.masthead__menu-item--lang-toggle')) return;
